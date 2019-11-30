@@ -28,7 +28,7 @@ const App = () => {
 
   useEffect(() => {
     Axios.get(
-      `http://www.omdbapi.com/?apikey=8bbf8d2&type=movie&s=${randomWords()}`
+      `https://www.omdbapi.com/?apikey=8bbf8d2&type=movie&s=${randomWords()}`
     )
       .then(response => {
         setScrollFilms(response.data.Search);
@@ -37,7 +37,7 @@ const App = () => {
   }, []);
 
   const seeFilmDetails = filmID => {
-    Axios.get(`http://www.omdbapi.com/?apikey=8bbf8d2&type=movie&i=${filmID}`)
+    Axios.get(`https://www.omdbapi.com/?apikey=8bbf8d2&type=movie&i=${filmID}`)
       .then(response => {
         //console.log(response);
         const film = {

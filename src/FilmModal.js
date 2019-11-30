@@ -33,9 +33,9 @@ const FilmModal = ({ setViewFilm, currentFilm }) => {
 
         <div className="description__container">
           <div className="description">
-            {currentFilm.description.length < 1000
+            {currentFilm.description.length < 200
               ? currentFilm.description
-              : currentFilm.description.slice(0, 1000) + "..."}
+              : currentFilm.description.slice(0, 200) + "..."}
           </div>
         </div>
       </div>
