@@ -1,13 +1,13 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Radley", serif;
+  background: url(https://i.imgur.com/qq8Vx74.jpg);
+  background-size: 100vw;
+  background-attachment: fixed;
+  font-family: "Julius Sans One", sans-serif;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
-}
+@import url(https://fonts.googleapis.com/css?family=Radley);
+@import url(https://fonts.googleapis.com/css?family=Julius+Sans+One);

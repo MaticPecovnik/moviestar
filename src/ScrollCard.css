@@ -1,0 +1,24 @@
+.film_card__container {
+  margin: 0.5rem;
+  cursor: pointer;
+  max-width: 100%;
+}
+
+.film_poster {
+  display: block;
+  max-width: 100%;
+  max-height: 50vh;
+  width: auto;
+  height: auto;
+}
+
+.film_title__container {
+  margin: 1rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.title {
+  font-size: 1.3vw;
+  font-weight: bold;
+}

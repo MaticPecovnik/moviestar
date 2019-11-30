@@ -1,0 +1,29 @@
+.header__container {
+  background-color: black;
+  width: 100vw;
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
+}
+
+.header_text__container {
+  color: white;
+  text-shadow: 1px 1px 1px black;
+  padding: 2vh;
+}
+
+.header_title {
+  font-family: "Julius Sans One", sans-serif;
+  font-weight: bold;
+  font-size: 10vh;
+  border-bottom: 1vh solid white;
+  margin-bottom: 1vh;
+}
+
+.header_author {
+  display: flex;
+  justify-content: flex-end;
+  font-size: 2.3vh;
+}

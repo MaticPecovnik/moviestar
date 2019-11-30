@@ -1,0 +1,44 @@
+.card__container {
+  height: 55vh;
+  width: 90%;
+  margin-left: 5%;
+  margin-top: 2.5vh;
+  cursor: pointer;
+  display: grid;
+  grid-template-columns: 65% 35%;
+  grid-template-rows: 100%;
+  grid-template-areas: "title poster";
+  background-color: black;
+  border: 5px solid rgb(255, 166, 0);
+  border-radius: 30px;
+}
+
+.poster__container {
+  grid-area: poster;
+}
+
+.search_poster {
+  display: block;
+  max-height: 53vh;
+  margin-top: 1vh;
+  margin-right: 2vw;
+  max-width: 20vw;
+  width: auto;
+  height: auto;
+}
+
+.search_title__container {
+  grid-area: title;
+  display: grid;
+  align-items: center;
+  place-content: center;
+  margin: 2vw;
+  color: white;
+}
+
+.search_title {
+  font-size: 3vw;
+}
+.search_year {
+  font-size: 2vw;
+}
