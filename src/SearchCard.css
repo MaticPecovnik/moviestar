@@ -1,11 +1,11 @@
 .card__container {
-  height: 55vh;
+  max-height: 40%;
   width: 90%;
   margin-left: 5%;
-  margin-top: 2.5vh;
+  margin-top: 2.5%;
   cursor: pointer;
   display: grid;
-  grid-template-columns: 65% 35%;
+  grid-template-columns: 65% 30%;
   grid-template-rows: 100%;
   grid-template-areas: "title poster";
   background-color: black;
@@ -15,13 +15,13 @@
 
 .poster__container {
   grid-area: poster;
+  margin-top: 1%;
+  margin-right: 10%;
 }
 
 .search_poster {
   display: block;
-  max-height: 53vh;
-  margin-top: 1vh;
-  margin-right: 2vw;
+  max-height: 40vh;
   max-width: 20vw;
   width: auto;
   height: auto;
@@ -37,7 +37,7 @@
 }
 
 .search_title {
-  font-size: 3vw;
+  font-size: 2.6vw;
 }
 .search_year {
   font-size: 2vw;

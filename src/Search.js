@@ -14,7 +14,7 @@ const Search = ({ seeFilmDetails }) => {
     if (searchPhrase !== "" && searchPhrase !== undefined) {
       let srcPhr = searchPhrase.split(" ").join("+");
       Axios.get(
-        `http://www.omdbapi.com/?apikey=8bbf8d2&type=movie&s=${srcPhr}&page=${currentPage}`
+        `https://www.omdbapi.com/?apikey=8bbf8d2&type=movie&s=${srcPhr}&page=${currentPage}`
       )
         .then(response => {
           setSearchResult(response.data.Search);
